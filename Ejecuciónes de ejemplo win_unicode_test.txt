@@ -1,0 +1,218 @@
+1. cmd.exe & pypy:
+Python version: 3.10.14 (75b3de9d9035, Apr 21 2024, 13:13:38)
+[PyPy 7.3.16 with MSC v.1929 64 bit (AMD64)]
+
+Deleting existing directory: 'fi┼ƒier.dir'
+Creating directory: 'fi┼ƒier.dir'
+| Dir status   | Creation time              | Modification time          |
+|--------------|----------------------------|----------------------------|
+| fi├à┬ƒier.dir  | 2024-07-29 13:24:38.398611 | 2024-07-29 13:24:38.398611 |
+| fi┼ƒier.dir   | 2024-07-29 13:27:39.686626 | 2024-07-29 13:27:39.686626 |     <- created now
+
+Deleting existing directory: 'fi├à┬ƒier.dir'
+Creating directory: 'fi├à┬ƒier.dir'
+| Dir status   | Creation time              | Modification time          |
+|--------------|----------------------------|----------------------------|
+| fi├à┬ƒier.dir  | 2024-07-29 13:27:40.705666 | 2024-07-29 13:27:40.705666 |   <- created now
+| fi┼ƒier.dir   | 2024-07-29 13:27:39.686626 | 2024-07-29 13:27:39.686626 |
+
+Deleting existing directory: 'fi┼ƒier.dir'
+Creating directory: 'fi┼ƒier.dir'
+| Dir status   | Creation time              | Modification time          |
+|--------------|----------------------------|----------------------------|
+| fi├à┬ƒier.dir  | 2024-07-29 13:27:40.705666 | 2024-07-29 13:27:40.705666 |
+| fi┼ƒier.dir   | 2024-07-29 13:27:41.720196 | 2024-07-29 13:27:41.720196 |    <- created now
+
+---
+2. cmd.exe & conda CPython
+Python version: 3.11.7 | packaged by Anaconda, Inc. | (main, Dec 15 2023, 18:05:47) [MSC v.1916 64 bit (AMD64)]
+
+Deleting existing directory: 'fişier.dir'
+Creating directory: 'fişier.dir'
+| Dir status   | Creation time              | Modification time          |
+|--------------|----------------------------|----------------------------|
+| fiÅier.dir              | 2024-07-29 13:36:15.172629 | 2024-07-29 13:36:15.172629 |
+| fişier.dir   | 2024-07-29 13:38:52.870449 | 2024-07-29 13:38:52.870449 |               <- created now
+
+Deleting existing directory: 'fiÅier.dir'
+Creating directory: 'fiÅier.dir'
+| Dir status   | Creation time              | Modification time          |
+|--------------|----------------------------|----------------------------|
+| fiÅier.dir              | 2024-07-29 13:38:53.886175 | 2024-07-29 13:38:53.886175 |    <- created now
+| fişier.dir   | 2024-07-29 13:38:52.870449 | 2024-07-29 13:38:52.870449 |
+
+Deleting existing directory: 'fişier.dir'
+Creating directory: 'fişier.dir'
+| Dir status   | Creation time              | Modification time          |
+|--------------|----------------------------|----------------------------|
+| fiÅier.dir              | 2024-07-29 13:38:53.886175 | 2024-07-29 13:38:53.886175 |
+| fişier.dir   | 2024-07-29 13:38:54.893778 | 2024-07-29 13:38:54.893778 |               <- created now
+
+---
+3. windows powershell & pypy
+Python version: 3.10.14 (75b3de9d9035, Apr 21 2024, 13:13:38)
+[PyPy 7.3.16 with MSC v.1929 64 bit (AMD64)]
+
+Deleting existing directory: 'fi┼ƒier.dir'
+Creating directory: 'fi┼ƒier.dir'
+| Dir status   | Creation time              | Modification time          |
+|--------------|----------------------------|----------------------------|
+| fi├à┬ƒier.dir  | 2024-07-29 13:27:40.705666 | 2024-07-29 13:27:40.705666 |
+| fi┼ƒier.dir   | 2024-07-29 13:30:11.891973 | 2024-07-29 13:30:11.891973 |    <- created now
+
+Deleting existing directory: 'fi├à┬ƒier.dir'
+Creating directory: 'fi├à┬ƒier.dir'
+| Dir status   | Creation time              | Modification time          |
+|--------------|----------------------------|----------------------------|
+| fi├à┬ƒier.dir  | 2024-07-29 13:30:12.900827 | 2024-07-29 13:30:12.900827 |   <- created now
+| fi┼ƒier.dir   | 2024-07-29 13:30:11.891973 | 2024-07-29 13:30:11.891973 |
+
+Deleting existing directory: 'fi┼ƒier.dir'
+Creating directory: 'fi┼ƒier.dir'
+| Dir status   | Creation time              | Modification time          |
+|--------------|----------------------------|----------------------------|
+| fi├à┬ƒier.dir  | 2024-07-29 13:30:12.900827 | 2024-07-29 13:30:12.900827 |
+| fi┼ƒier.dir   | 2024-07-29 13:30:13.913170 | 2024-07-29 13:30:13.913170 |    <- created now
+
+---
+3. windows powershell & conda CPython
+Python version: 3.11.7 | packaged by Anaconda, Inc. | (main, Dec 15 2023, 18:05:47) [MSC v.1916 64 bit (AMD64)]
+
+Deleting existing directory: 'fişier.dir'
+Creating directory: 'fişier.dir'
+| Dir status   | Creation time              | Modification time          |
+|--------------|----------------------------|----------------------------|
+| fiÅier.dir              | 2024-07-29 13:30:12.900827 | 2024-07-29 13:30:12.900827 |
+| fişier.dir   | 2024-07-29 13:31:25.788840 | 2024-07-29 13:31:25.788840 |               <- created now
+
+Deleting existing directory: 'fiÅier.dir'
+Creating directory: 'fiÅier.dir'
+| Dir status   | Creation time              | Modification time          |
+|--------------|----------------------------|----------------------------|
+| fiÅier.dir              | 2024-07-29 13:31:26.795139 | 2024-07-29 13:31:26.795139 |    <- created now
+| fişier.dir   | 2024-07-29 13:31:25.788840 | 2024-07-29 13:31:25.788840 |
+
+Deleting existing directory: 'fişier.dir'
+Creating directory: 'fişier.dir'
+| Dir status   | Creation time              | Modification time          |
+|--------------|----------------------------|----------------------------|
+| fiÅier.dir              | 2024-07-29 13:31:26.795139 | 2024-07-29 13:31:26.795139 |
+| fişier.dir   | 2024-07-29 13:31:27.808735 | 2024-07-29 13:31:27.808735 |               <- created now
+
+---
+4. Terminal Windows & windows powershell & pypy
+Python version: 3.10.14 (75b3de9d9035, Apr 21 2024, 13:13:38)
+[PyPy 7.3.16 with MSC v.1929 64 bit (AMD64)]
+
+Deleting existing directory: 'fi┼ƒier.dir'
+Creating directory: 'fi┼ƒier.dir'
+| Dir status   | Creation time              | Modification time          |
+|--------------|----------------------------|----------------------------|
+| fi├à┬ƒier.dir  | 2024-07-29 13:38:53.886175 | 2024-07-29 13:38:53.886175 |
+| fi┼ƒier.dir   | 2024-07-29 13:42:14.760321 | 2024-07-29 13:42:14.760321 |    <- created now
+
+Deleting existing directory: 'fi├à┬ƒier.dir'
+Creating directory: 'fi├à┬ƒier.dir'
+| Dir status   | Creation time              | Modification time          |
+|--------------|----------------------------|----------------------------|
+| fi├à┬ƒier.dir  | 2024-07-29 13:42:15.782759 | 2024-07-29 13:42:15.782759 |   <- created now
+| fi┼ƒier.dir   | 2024-07-29 13:42:14.760321 | 2024-07-29 13:42:14.760321 |
+
+Deleting existing directory: 'fi┼ƒier.dir'
+Creating directory: 'fi┼ƒier.dir'
+| Dir status   | Creation time              | Modification time          |
+|--------------|----------------------------|----------------------------|
+| fi├à┬ƒier.dir  | 2024-07-29 13:42:15.782759 | 2024-07-29 13:42:15.782759 |
+| fi┼ƒier.dir   | 2024-07-29 13:42:16.804339 | 2024-07-29 13:42:16.804339 |    <- created now
+
+---
+5. Terminal Windows & windows powershell & CPython
+Python version: 3.11.7 | packaged by Anaconda, Inc. | (main, Dec 15 2023, 18:05:47) [MSC v.1916 64 bit (AMD64)]
+
+Deleting existing directory: 'fişier.dir'
+Creating directory: 'fişier.dir'
+| Dir status   | Creation time              | Modification time          |
+|--------------|----------------------------|----------------------------|
+| fişier.dir   | 2024-07-29 13:43:17.471902 | 2024-07-29 13:43:17.471902 |               <- created now
+| fiÅier.dir              | 2024-07-29 13:42:15.782759 | 2024-07-29 13:42:15.782759 |
+
+Deleting existing directory: 'fiÅier.dir'
+Creating directory: 'fiÅier.dir'
+| Dir status   | Creation time              | Modification time          |
+|--------------|----------------------------|----------------------------|
+| fişier.dir   | 2024-07-29 13:43:17.471902 | 2024-07-29 13:43:17.471902 |
+| fiÅier.dir              | 2024-07-29 13:43:18.480245 | 2024-07-29 13:43:18.480245 |    <- created now
+
+Deleting existing directory: 'fişier.dir'
+Creating directory: 'fişier.dir'
+| Dir status   | Creation time              | Modification time          |
+|--------------|----------------------------|----------------------------|
+| fişier.dir   | 2024-07-29 13:43:19.484703 | 2024-07-29 13:43:19.484703 |               <- created now
+| fiÅier.dir              | 2024-07-29 13:43:18.480245 | 2024-07-29 13:43:18.480245 |
+
+6. Terminal Windows & Ubuntu WSL & zsh & pypy
+
+
+
+==========================================================
+
+╭─  pwsh |  meson-numpy_error |   master ≡  ?7 ~2 |  24ms |                                                                   base 3.11.7|      100   25,16:56 |
+╰─ python .\win_unicode_test.py
+Python version: 3.11.7 | packaged by Anaconda, Inc. | (main, Dec 15 2023, 18:05:47) [MSC v.1916 64 bit (AMD64)] 
+
+Deleting existing directory: b'fi\xc5\x9fier.dir'
+Creating directory: b'fi\xc5\x9fier.dir'
+
+Deleting existing directory: fiÅier.dir
+Creating directory: fiÅier.dir
+
+Matching dirs: ['fiÅ\x9fier.dir', 'fişier.dir']
+╭─  pwsh |  meson-numpy_error |   master ≡  ?7 ~2 |  181ms |                                                                   base 3.11.7|      94   25,17:19 |
+╰─ conda activate meson-conda3.10
+╭─  pwsh |  meson-numpy_error |   master ≡  ?7 ~2 |  556ms |                                                       meson-conda3.10 3.10.14|      94   25,17:19 |
+╰─ python .\win_unicode_test.py  
+Python version: 3.10.14 | packaged by Anaconda, Inc. | (main, May  6 2024, 19:44:50) [MSC v.1916 64 bit (AMD64)] 
+
+Deleting existing directory: b'fi\xc5\x9fier.dir'
+Creating directory: b'fi\xc5\x9fier.dir'
+
+Deleting existing directory: fiÅier.dir
+Creating directory: fiÅier.dir
+
+Matching dirs: ['fiÅ\x9fier.dir', 'fişier.dir']
+╭─  pwsh |  meson-numpy_error |   master ≡  ?7 ~2 |  109ms |                                                       meson-conda3.10 3.10.14|      94   25,17:19 |
+╰─ conda deactivate
+╭─  pwsh |  meson-numpy_error |   master ≡  ?7 ~2 |  509ms |                                                                   base 3.11.7|      94   25,17:21 |
+╰─ .\.venv\scripts\Activate.ps1
+(.venv) ╭─  pwsh |  meson-numpy_error |   master ≡  ?7 ~2 |  121ms |                                                     meson-numpy_error 3.10.14|      94   25,17:21 |
+╰─
+(.venv) ╭─  pwsh |  meson-numpy_error |   master ≡  ?7 ~2 |  0ms |                                                       meson-numpy_error 3.10.14|      94   25,17:22 |
+╰─ python .\win_unicode_test.py
+Python version: 3.10.14 (75b3de9d9035, Apr 21 2024, 13:13:38)
+[PyPy 7.3.16 with MSC v.1929 64 bit (AMD64)]
+
+Directory b'fi\xc5\x9fier.dir' does not detected.
+Creating directory: b'fi\xc5\x9fier.dir'
+Directory b'fi\xc5\x9fier.dir' already exists, so it was not created.
+
+Deleting existing directory: fi├à┬ƒier.dir
+Creating directory: fi├à┬ƒier.dir
+
+Matching dirs: ['fi├à\x9fier.dir', 'fi┼ƒier.dir']
+(.venv) ╭─  pwsh |  meson-numpy_error |   master ≡  ?7 ~2 |  158ms |                                                     meson-numpy_error 3.10.14|      94   25,17:22 |
+╰─ python .\win_unicode_test.py
+Python version: 3.10.14 (75b3de9d9035, Apr 21 2024, 13:13:38)
+[PyPy 7.3.16 with MSC v.1929 64 bit (AMD64)]
+
+Directory b'fi\xc5\x9fier.dir' was not detected.
+Creating directory: b'fi\xc5\x9fier.dir'
+Directory b'fi\xc5\x9fier.dir' already exists, so it was not created.
+
+Deleting existing directory: fi├à┬ƒier.dir
+Creating directory: fi├à┬ƒier.dir
+
+Matching dirs: ['fi├à\x9fier.dir', 'fi┼ƒier.dir']
+(.venv) ╭─  pwsh |  meson-numpy_error |   master ≡  ?7 ~2 |  143ms |                                                     meson-numpy_error 3.10.14|      94   25,17:22 |
+╰─
+
+
